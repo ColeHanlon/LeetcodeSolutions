@@ -1,3 +1,3 @@
 # LeetcodeSolutions Cole Hanlon
 
-Storing solutions to daily LeetCode problems, targetting mediums and hards.
+Storing solutions to the daily LeetCode problem, targetting mediums and hards.
