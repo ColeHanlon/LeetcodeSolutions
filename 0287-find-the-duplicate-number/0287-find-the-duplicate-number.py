@@ -6,9 +6,8 @@ class Solution:
         while 1:
             left = nums[left]
             right = nums[nums[right]]
-
             if left == right: break
-        
+
         left = nums[0]
         while left != right:
             left = nums[left]
