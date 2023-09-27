@@ -15,7 +15,6 @@ class Solution:
                 break
 
         for i in range(len(decoded_size)-1, -1, -1):
-            print(i)
             k %= decoded_size[i]
             if k == 0 and s[i].isalpha():
                 return s[i]
