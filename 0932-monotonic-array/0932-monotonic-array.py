@@ -8,6 +8,7 @@ class Solution:
         for num in nums:
             if num != first:
                 increasing = True if num > first else False
+                break
 
         for i in range(len(nums)-1):
             if increasing and nums[i] > nums[i+1]:
