@@ -7,7 +7,7 @@ class Solution:
             if num_remaining <= 0:
                 return 0
             elif curr_wall == total_walls:
-                return inf
+                return sys.maxsize
             
             return min(cost[curr_wall] + recursive_dp(curr_wall + 1, num_remaining - time[curr_wall] - 1),
                        recursive_dp(curr_wall + 1, num_remaining))
