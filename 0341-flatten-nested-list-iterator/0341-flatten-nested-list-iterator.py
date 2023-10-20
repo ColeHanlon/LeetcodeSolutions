@@ -23,7 +23,6 @@
 class NestedIterator:
     def __init__(self, nestedList: [NestedInteger]):
         self.reverse_list = nestedList[::-1]
-        print(self.reverse_list)
     
     def next(self) -> int:
         return self.reverse_list.pop().getInteger()
