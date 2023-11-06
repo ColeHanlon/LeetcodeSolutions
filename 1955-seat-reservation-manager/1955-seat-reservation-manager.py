@@ -2,10 +2,8 @@ class SeatManager:
 
     def __init__(self, n: int):
         self.n = n
-        self.min_heap = []
+        self.min_heap = list(range(1, n+1))
         heapify(self.min_heap)
-        for i in range(1, n+1):
-            heappush(self.min_heap, i)
 
     def reserve(self) -> int:
         return heappop(self.min_heap)
